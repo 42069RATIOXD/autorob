@@ -15,7 +15,7 @@ if game:GetService("Players").LocalPlayer.PlayerGui["All-LeaderboardV2"].MainFra
     setclipboard(game.Players.LocalPlayer.UserId)
     if game.Players.LocalPlayer.UserId == unpack(whitelistids) then
         print("whitelist")
-        whitelistworked = true
+        getgenv().whitelistworkedgenv = true
         else
             rconsoleprint("No whitelist?")
             game:Shutdown()
