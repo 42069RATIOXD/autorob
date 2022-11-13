@@ -1,4 +1,5 @@
 local whitelistworked;
+whitelistworked = getgenv().whitelistworked
 whitelistworked = false
 local whitelistnames = {
     "bigabigabigabig",
