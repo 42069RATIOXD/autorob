@@ -6,7 +6,7 @@ local whitelistnames = {
     "Baristaofplebs100",
 }
 local whitelistids = {
- 1951639251w,
+ 19516392511,
  2329494774,
 }
 print(unpack(whitelistnames))
