@@ -5,7 +5,7 @@ whitelistworked = false
 local whitelistnames = {
     "bigabigabigabig",
     "Baristaofplebs100",
-    "ahmetkaya2000"
+    "ahmetkaya2000",
 }
 local whitelistids = {
  1951639251,
