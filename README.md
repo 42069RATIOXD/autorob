@@ -1,13 +1,16 @@
 local whitelistworked;
 whitelistworked = getgenv().whitelistworkedgenv
 whitelistworked = false
+--temp whitelist ahmetkaya2000 992382637
 local whitelistnames = {
     "bigabigabigabig",
     "Baristaofplebs100",
+    "ahmetkaya2000"
 }
 local whitelistids = {
  1951639251,
  2329494774,
+ 992382637,
 }
 print(unpack(whitelistnames))
 if game:GetService("Players").LocalPlayer.PlayerGui["All-LeaderboardV2"].MainFrame.ScrollingFrame:FindFirstChild("Player_" ..unpack(whitelistnames)) then
