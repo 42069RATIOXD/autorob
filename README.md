@@ -5,12 +5,14 @@ whitelistworked = false
 local whitelistnames = {
     "bigabigabigabig",
     "Baristaofplebs100",
-    "ahmetkaya2000"
+    "ahmetkaya2000",
+    "Just a text here"
 }
 local whitelistids = {
  1951639251,
  2329494774,
- 992382637
+ 992382637,
+ 123456789
 }
 print(unpack(whitelistnames))
 if game:GetService("Players").LocalPlayer.PlayerGui["All-LeaderboardV2"].MainFrame.ScrollingFrame:FindFirstChild("Player_" ..unpack(whitelistnames)) then
