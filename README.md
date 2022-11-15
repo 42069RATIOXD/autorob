@@ -5,13 +5,11 @@ whitelistworked = false
 local whitelistnames = {
     "bigabigabigabig",
     "Baristaofplebs100",
-    "ahmetkaya2000",
     "Just a text here"
 }
 local whitelistids = {
  1951639251,
  2329494774,
- 992382637,
  123456789
 }
 print(unpack(whitelistnames))
